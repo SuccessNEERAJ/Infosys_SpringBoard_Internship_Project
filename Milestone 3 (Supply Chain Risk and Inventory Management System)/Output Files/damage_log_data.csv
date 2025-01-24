@@ -1,0 +1,16 @@
+log_id,product_id,quantity_damaged,damage_reason,timestamp
+1,LIB001,100,Transportation damage,2025-01-24 08:29:34.292989
+2,LIB001,100,Transportation damage,2025-01-24 08:29:52.401534
+3,LIB001,100,Transportation damage,2025-01-24 08:39:46.882914
+4,LIB001,75,Transportation packaging failure,2025-01-24 08:48:32.407462
+5,LIB002,50,Warehouse climate control failure,2025-01-24 08:48:32.448378
+6,LIB003,25,Minor handling damage,2025-01-24 08:48:32.487879
+7,LIB001,75,Transportation packaging failure,2025-01-24 08:58:03.577280
+8,LIB002,50,Warehouse climate control failure,2025-01-24 08:58:03.617490
+9,LIB003,25,Minor handling damage,2025-01-24 08:58:03.657166
+10,LIB001,75,Transportation packaging failure,2025-01-24 08:59:43.025591
+11,LIB002,50,Warehouse climate control failure,2025-01-24 08:59:43.067643
+12,LIB003,25,Minor handling damage,2025-01-24 08:59:43.108552
+13,LIB001,75,Transportation packaging failure,2025-01-24 09:01:24.390381
+14,LIB002,50,Warehouse climate control failure,2025-01-24 09:01:24.423410
+15,LIB003,25,Minor handling damage,2025-01-24 09:01:24.461151

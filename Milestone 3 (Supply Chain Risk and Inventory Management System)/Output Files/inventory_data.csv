@@ -1,0 +1,4 @@
+product_id,product_name,total_stock,min_threshold,max_capacity,unit_price,risk_factor
+LIB001,Standard Lithium Battery,3675,1000,10000,50.0,0.4116666666666667
+LIB002,High-Capacity Battery,2200,500,7000,75.0,0.5933333333333334
+LIB003,EV Battery Module,1475,250,4000,200.0,0.29000000000000004
