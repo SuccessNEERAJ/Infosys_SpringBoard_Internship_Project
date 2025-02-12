@@ -512,4 +512,4 @@ with tab_chat:
 
     if st.button("Clear Chat"):
         st.session_state.messages = []
-        st.rerun() 
+        st.rerun() #streamlit run "Milestone 4 (AI powered Inventory Management DashBoard)/python_scripts/streamlit_app.py"
