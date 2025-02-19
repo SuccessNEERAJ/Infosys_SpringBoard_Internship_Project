@@ -203,8 +203,8 @@ with tab_alerts:
         # Transport Delay Analysis
         delays = st.session_state.inventory_system.get_transport_delays()
         if not delays.empty:
-            delays['delay_days'] = (pd.to_datetime(delays['actual_delivery']) - 
-                                  pd.to_datetime(delays['expected_delivery'])).dt.days
+            delays['delay_days'] = (pd.to_datetime(delays['actual_delivery'], format='%Y-%m-%d', errors='coerce') - 
+                                  pd.to_datetime(delays['expected_delivery'], format='%Y-%m-%d', errors='coerce')).dt.days
             avg_delay = delays.groupby('product_id')['delay_days'].mean()
             fig_delays = px.bar(
                 x=avg_delay.index,
